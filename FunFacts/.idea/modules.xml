@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FunFacts.iml" filepath="$PROJECT_DIR$/FunFacts.iml" />
+      <module fileurl="file://D:\Projects\Learning\treehouse-android\FunFacts\FunFacts.iml" filepath="D:\Projects\Learning\treehouse-android\FunFacts\FunFacts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Projects\Learning\treehouse-android\FunFacts\app\app.iml" filepath="D:\Projects\Learning\treehouse-android\FunFacts\app\app.iml" />
     </modules>
   </component>
 </project>
