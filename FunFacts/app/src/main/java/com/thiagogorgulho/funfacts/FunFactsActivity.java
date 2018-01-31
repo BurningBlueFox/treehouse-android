@@ -3,13 +3,15 @@ package com.thiagogorgulho.funfacts;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class FunFactsActivity extends AppCompatActivity {
-    // Declare our view variables
+    public static final String TAG = FunFactsActivity.class.getSimpleName();
 
     private TextView mFactTextView;
     private Button mShowFactButton;
@@ -37,6 +39,7 @@ public class FunFactsActivity extends AppCompatActivity {
             }
         };
         mShowFactButton.setOnClickListener(listener);
+
     }
 
     private void ChangeFact(){
@@ -44,5 +47,9 @@ public class FunFactsActivity extends AppCompatActivity {
         mRelativeLayout.setBackgroundColor(color);
         mShowFactButton.setTextColor(color);
         mFactTextView.setText(mFactBook.GetFact());
+
+
+        Toast.makeText(this, "New Fact generated", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "New fact generated");
     }
 }
