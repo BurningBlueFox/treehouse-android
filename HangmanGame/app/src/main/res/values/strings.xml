@@ -1,0 +1,9 @@
+<resources>
+    <string name="answer_0">Apple</string>
+    <string name="answer_1">Banana</string>
+    <string name="answer_2">Coconut</string>
+    <string name="answer_3">Android</string>
+
+    <string name="app_name">Hangman Game</string>
+    <string name="start">Start</string>
+</resources>
