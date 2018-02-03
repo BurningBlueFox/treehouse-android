@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             case 0: a = getString(R.string.answer_0); break;
             case 1: a = getString(R.string.answer_1); break;
             case 2: a = getString(R.string.answer_2); break;
-            case 3: a = getString(R.string.answer_3); break;
+            case 3: a =  getString(R.string.answer_3); break;
         }
             return a;
     }

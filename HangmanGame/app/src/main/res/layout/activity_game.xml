@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.thiagogorgulho.hangmangame.GameActivity">
+
+    <TextView
+        android:id="@+id/answerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        tools:text="A__le" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answerView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:ems="10"
+        android:hint="Type a letter and submit"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputText"
+        android:layout_centerHorizontal="true"
+        android:textSize="8sp"
+        tools:text="Submit" />
+</RelativeLayout>
