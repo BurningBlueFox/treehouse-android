@@ -1,5 +1,6 @@
 package com.thiagogorgulho.hangmangame;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -41,9 +42,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void StartGame(){
-        Game game = new Game(SelectRandomAnswer());
-
+       String answer = SelectRandomAnswer();
         Log.d(TAG, "Game has started");
+
+        Intent intent = new Intent(this, GameActivity.class);
+        intent.putExtra("ans", answer);
+        startActivity(intent);
+
     }
 
 }
