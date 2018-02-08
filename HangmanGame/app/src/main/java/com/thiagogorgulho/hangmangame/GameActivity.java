@@ -3,6 +3,7 @@ package com.thiagogorgulho.hangmangame;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,7 +35,13 @@ public class GameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String answer = inputField.getText().toString();
-                game.ApplyGuess(answer);
+                try{
+                    game.ApplyGuess(answer);
+                }
+                catch (IllegalArgumentException argument){
+                    Log.e(TAG, "Exception: " + argument.getMessage());
+                }
+
                 UpdateGameScore();
             }
         });

@@ -11,8 +11,10 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.graphics.Palette;
 import android.transition.ChangeBounds;
+import android.transition.Fade;
 import android.transition.Scene;
 import android.transition.TransitionManager;
+import android.transition.TransitionSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
@@ -67,8 +69,8 @@ public class AlbumDetailActivity extends Activity {
         fab.setScaleX(0);
         fab.setScaleY(0);
 
-        titleAnimator.setDuration(1000);
-        trackAnimator.setDuration(1000);
+        titleAnimator.setDuration(300);
+        trackAnimator.setDuration(300);
         titleAnimator.setStartDelay(100);
 
         AnimatorSet set = new AnimatorSet();
@@ -89,7 +91,26 @@ public class AlbumDetailActivity extends Activity {
         Scene expandedScene = Scene.getSceneForLayout(transitionRoot,
                 R.layout.activity_album_detail_expanded,
                 view.getContext());
-        TransitionManager.go(expandedScene, new ChangeBounds());
+        //TransitionManager.go(expandedScene, new ChangeBounds());
+        expandedScene.setEnterAction(new Runnable() {
+            @Override
+            public void run() {
+                ButterKnife.bind(AlbumDetailActivity.this);
+                populate();
+            }
+        });
+
+        TransitionSet transitionSet = new TransitionSet();
+        transitionSet.setOrdering(TransitionSet.ORDERING_SEQUENTIAL);
+        ChangeBounds changeBounds = new ChangeBounds();
+        changeBounds.setDuration(200);
+        transitionSet.addTransition(changeBounds);
+
+        Fade fadeLyrics = new Fade();
+        fadeLyrics.addTarget(R.id.lyrics);
+        fadeLyrics.setDuration(100);
+        transitionSet.addTransition(fadeLyrics);
+        TransitionManager.go(expandedScene, transitionSet);
     }
 
     private void populate() {

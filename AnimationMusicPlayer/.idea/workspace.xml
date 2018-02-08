@@ -94,11 +94,13 @@
       <file leaf-file-name="AlbumDetailActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/albumcover/AlbumDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
               <folding>
-                <element signature="e#2968#2969#0" expanded="true" />
-                <element signature="e#2993#2994#0" expanded="true" />
+                <element signature="e#3039#3040#0" expanded="true" />
+                <element signature="e#3064#3065#0" expanded="true" />
+                <element signature="e#3465#3647#0" expanded="true" />
+                <element signature="e#3646#3647#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1807,6 +1809,7 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
     <property name="device.picker.selection" value="ce061716d5e6013703" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HangmanGame" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1896,7 +1899,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518103452704" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518106022572" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1944,7 +1947,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518103452704" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518106022573" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2127,7 +2130,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518103452704" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518106022574" />
       </method>
     </configuration>
     <list size="1">
@@ -2311,8 +2314,10 @@
         <state relative-caret-position="1088">
           <caret line="64" column="39" lean-forward="false" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
           <folding>
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+            <element signature="e#3465#3647#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2344,8 +2349,10 @@
         <state relative-caret-position="816">
           <caret line="48" column="91" lean-forward="false" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
           <folding>
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+            <element signature="e#3465#3647#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2377,8 +2384,10 @@
         <state relative-caret-position="391">
           <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+            <element signature="e#3465#3647#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2410,8 +2419,10 @@
         <state relative-caret-position="663">
           <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="41" />
           <folding>
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+            <element signature="e#3465#3647#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2510,11 +2521,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/albumcover/AlbumDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
           <folding>
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+            <element signature="e#3465#3647#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
           </folding>
         </state>
       </provider>
